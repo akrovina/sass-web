@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #343a40;
+  color: white;
+  font-weight: bold;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+header {
+  background-color: white;
+  color: black;
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+header .logo img {
+  max-width: 100px;
+  margin-right: 20px;
+}
+header nav button {
+  background-color: transparent;
+  border: none;
+  font-weight: bold;
+  color: black;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+header nav button:hover {
+  background-color: #ddd;
+}
+header nav button:not(:last-child) {
+  margin-right: 20px;
+}
+
+section {
+  padding: 40px 0;
+  text-align: center;
+}
+section h2 {
+  color: #007bff;
+  margin-bottom: 20px;
+}
+section p {
+  line-height: 1.5;
+}
+section ul {
+  list-style-type: none;
+  padding: 0;
+}
+section ul li {
+  margin-bottom: 10px;
+}
+section ul li a {
+  color: #007bff;
+  text-decoration: none;
+}
+section ul li a:hover {
+  text-decoration: underline;
+}
+section .btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+section .btn:hover {
+  background-color: #0062cc;
+}
+
+footer {
+  background-color: #6c757d;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+
+section:not(:last-child) {
+  border-bottom: 2px solid #ddd;
+}
+
+.services-bg {
+  background-color: #343a40;
+}/*# sourceMappingURL=styles.css.map */
